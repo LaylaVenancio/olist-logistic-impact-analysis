@@ -17,8 +17,7 @@ O dataset foi estruturada em tabelas (.csv) e a ferramenta escolhida para lidar 
 
 ## 3. Método 
 
-1. Limpeza dos dados: Reconhecimento das tabelas, verificando e tratando a existência de nulos, duplicatas e tipos incorretos
-2. Join e criação de variáveis: Criação de tabela com granularidade de pedidos entregues, reunindo todas as informações relevantes para a análise exploratória.
-4. Visualização dos dados: Criação de gráficos para explorar hipóteses de negócio
-5. Exportar dados tratados em CSV
-6. [Criar visão em Power Bi para o board executivo](https://app.powerbi.com/view?r=eyJrIjoiMmZmOTM1MmYtYjE2OS00OTAxLTk5ZDUtOTkyOGMzOTBmMTMyIiwidCI6IjhlZWNhNDA0LWE0N2QtNDU1NS1hMmQ0LTBmMzYxOTA0MWM5YyJ9)
+1. Tratamento e Limpeza: Identificação e correção de nulos, duplicatas e tipos incorretos
+2. Consolidação: Realização de Joins entre as tabelas originais para a criação de um dataset unificado com a granularidade de pedidos entregues.  
+3. Enriquecimento de Dados: Criação de métricas logísticas essenciais, como o cálculo da distância entre vendedor e comprador (km) e o status de pontualidade da postagem e da entrega.  
+4. Análise e Visualização: Aplicação de correlação de Pearson e estatística descritiva, culminando na criação de gráficos exploratórios e um [Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiMmZmOTM1MmYtYjE2OS00OTAxLTk5ZDUtOTkyOGMzOTBmMTMyIiwidCI6IjhlZWNhNDA0LWE0N2QtNDU1NS1hMmQ0LTBmMzYxOTA0MWM5YyJ9) para suporte à decisão executiva.
